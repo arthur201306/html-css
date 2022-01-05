@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+div {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+
+#cursos img:hover {
+    opacity: 0.5;
+    border: 1.5px solid rgb(255, 255, 255);
+    transition: .7s;
+}
+
+#cursos img {
+    padding: 20px;
+    transition: .7s;
+}
